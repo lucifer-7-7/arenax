@@ -244,7 +244,7 @@ ul a:nth-child(6):hover {
   border-radius: 50px;
   color: #fffce1;
   font-weight: 900;
-  background: transparent;
+  background: #ed150c;
   text-align: center;
   padding: 0.5vw 1.6vw;
   font-size: 0.9vw;
@@ -254,7 +254,7 @@ ul a:nth-child(6):hover {
 }
 .cta:hover {
   background-color: #ed150c;
-  padding: 0.5vw 1.6vw;
+  padding: 0.3vw 1vw;
   font-size: 0.9vw;
   color: #fffce1;
 }
@@ -824,7 +824,7 @@ footer .footer-bottom h1 {
   #test-head {
     color: white;
     font-family: two;
-    margin-top: 20px;
+    margin-top: 60px;
     font-size: 28vw;
     /* line-height: normal; */
     white-space: nowrap;
@@ -917,7 +917,7 @@ footer .footer-bottom h1 {
 .second .second-one .span>span::after,
 .second .second-one .span1>span::after {
     content: '';
-    position: absolute;
+    position: relative;
     height: 1px;
     width: 100%;
     bottom: 0%;
@@ -949,7 +949,7 @@ footer .footer-bottom h1 {
 .second .second-two .span>span::after,
 .second .second-two .span1>span::after {
     content: '';
-    position: absolute;
+    position: relative;
     height: 1px;
     width: 100%;
     bottom: 0%;
@@ -977,7 +977,7 @@ footer .footer-bottom h1 {
 }
 
 footer .footer-bottom {
-    height: 305vh;
+    height: 35vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -987,11 +987,11 @@ footer .footer-bottom {
 }
 
 footer .footer-bottom h1 {
-    font-size: 24vw;
+    font-size: 14vw;
 
     font-weight: 900;
     /* letter-spacing: 1vw; */
-    position:absolute; display:block; white-space:nowrap
+    position:relative; display:block; white-space:nowrap
 }
 
 @keyframes animate-gradient {
@@ -1006,4 +1006,10 @@ footer .footer-bottom h1 {
   #loader h1 {
     font-size: 9vw;
   }
+}
+
+@media (max-width: 400px) {
+  footer .footer-bottom h1 {
+    font-size: 24vw;
+}
 }
